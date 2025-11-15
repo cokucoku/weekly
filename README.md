@@ -8,6 +8,6 @@
 
 **十一月**
 
-- 第 001 期：[<ul>如何更好设计软件界面</ul>](https://weekly.leeao8.cn/001)
+- 第 001 期：[如何更好设计软件界面](https://weekly.leeao8.cn/001)
 
 
