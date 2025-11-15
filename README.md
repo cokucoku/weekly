@@ -1,8 +1,8 @@
 # 科技周刊
 
-记录每周值得分享的科技内容，周六发布。
+这里记录每周值得分享的科技内容，周六发布。
 
-欢迎投稿文章/软件/资源，请[提交issue](https://github.com/cokucoku/weekly/issues) 。
+本内容欢迎[投稿](https://github.com/cokucoku/weekly/issues "投稿")。合作请邮件联系（34832462@qq.com）。
 
 ##  2025
 
