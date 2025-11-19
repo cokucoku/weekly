@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2409a98c-a635-4937-a642-2a72c76c7b23" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2409a98c-a635-4937-a642-2a72c76c7b23" name="默认的" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../gitee/html_css_js/web api/【W】-Web Speech API.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
@@ -23,18 +21,6 @@
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#418#494#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://D:/Users/Administrator/Desktop/page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="406606" selection-start-line="8" selection-start-column="406606" selection-end-line="8" selection-end-column="406606" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,12 +133,12 @@
       <workItem from="1763446147919" duration="219000" />
       <workItem from="1763446553027" duration="987000" />
       <workItem from="1763449699188" duration="3081000" />
-      <workItem from="1763513905116" duration="11391000" />
+      <workItem from="1763513905116" duration="11396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56090000" />
+    <option name="totallyTimeSpent" value="56095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -315,6 +301,16 @@
     <entry file="file://$PROJECT_DIR$/../../gitee/html_css_js/TweenMax/优势官网/笑傲江湖.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://D:/Users/Administrator/Desktop/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="406606" selection-start-line="8" selection-start-column="406606" selection-end-line="8" selection-end-column="406606" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../gitee/html_css_js/web api/【W】-Web Speech API.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -322,16 +318,6 @@
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#418#494#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Users/Administrator/Desktop/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="406606" selection-start-line="8" selection-start-column="406606" selection-end-line="8" selection-end-column="406606" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
