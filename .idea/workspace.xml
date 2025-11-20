@@ -20,7 +20,6 @@
               <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#418#494#0" />
               </folding>
             </state>
           </provider>
@@ -70,6 +69,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,7 +81,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,11 +133,12 @@
       <workItem from="1763446553027" duration="987000" />
       <workItem from="1763449699188" duration="3081000" />
       <workItem from="1763513905116" duration="11994000" />
+      <workItem from="1763618331477" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56693000" />
+    <option name="totallyTimeSpent" value="56706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
