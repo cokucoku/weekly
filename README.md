@@ -8,6 +8,7 @@
 
 **十一月**
 
+- 第 002 期：[创意小费罐](https://github.com/cokucoku/weekly/blob/main/002.md)
 - 第 001 期：[如何更好设计软件界面](https://github.com/cokucoku/weekly/blob/main/001.md)
 
 
