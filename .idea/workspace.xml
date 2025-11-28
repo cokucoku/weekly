@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2409a98c-a635-4937-a642-2a72c76c7b23" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,24 +25,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="154">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="220">
+                <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/002.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/003.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1145">
-                <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <first_editor>
+                <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -62,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/002.md" />
         <option value="$PROJECT_DIR$/003.md" />
         <option value="$PROJECT_DIR$/../../gitee/code_code/public/case/canvas/sola.html" />
         <option value="$PROJECT_DIR$/../../gitee/code_code/public/case/canvas/ellipse.html" />
@@ -76,6 +76,8 @@
         <option value="$PROJECT_DIR$/001.md" />
         <option value="$PROJECT_DIR$/../../gitee/html_css_js/web api/【W】-Web Speech API.html" />
         <option value="D:/Users/Administrator/Desktop/page.html" />
+        <option value="$PROJECT_DIR$/002.md" />
+        <option value="$PROJECT_DIR$/../003.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -157,12 +159,14 @@
       <workItem from="1763449699188" duration="3081000" />
       <workItem from="1763513905116" duration="11994000" />
       <workItem from="1763618331477" duration="13000" />
-      <workItem from="1763691365111" duration="273000" />
+      <workItem from="1763691365111" duration="1420000" />
+      <workItem from="1764118965577" duration="91000" />
+      <workItem from="1764309360566" duration="82000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56979000" />
+    <option name="totallyTimeSpent" value="58299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -193,7 +197,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/003.md" />
     <entry file="file://$PROJECT_DIR$/../../gitee/code_code/public/case/canvas/bee.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -324,18 +327,11 @@
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../gitee/html_css_js/web api/【W】-Web Speech API.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/../003.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <first_editor relative-caret-position="439">
+            <caret line="135" column="2" lean-forward="true" selection-start-line="135" selection-start-column="2" selection-end-line="135" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
@@ -344,8 +340,35 @@
     <entry file="file://$PROJECT_DIR$/002.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1145">
-            <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <first_editor relative-caret-position="2420">
+            <caret line="152" column="13" selection-start-line="152" selection-start-column="13" selection-end-line="152" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gitee/html_css_js/web api/【W】-Web Speech API.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="220">
+            <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
           </first_editor>
           <second_editor />
         </state>
