@@ -7,6 +7,7 @@
 ##  2025
 
 **十一月**
+- 第 006 期：[梵塔黑（Vantablack）最黑的物质](https://github.com/cokucoku/weekly/blob/main/006.md)
 - 第 005 期：[乘坐黏菌特快列车](https://github.com/cokucoku/weekly/blob/main/005.md)
 - 第 004 期：[乐高与石油巨头](https://github.com/cokucoku/weekly/blob/main/004.md)
 - 第 003 期：[盲人摸象](https://github.com/cokucoku/weekly/blob/main/003.md)
