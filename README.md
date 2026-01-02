@@ -1,8 +1,13 @@
-# 科技周刊
+﻿# 科技周刊
 
 这里记录每周值得分享的科技内容，周五发布。
 
 本内容欢迎[投稿](https://github.com/cokucoku/weekly/issues "投稿")。合作请邮件联系（34832462@qq.com）。
+
+##  2026
+
+**一月**
+- 第 008 期：[10年时间，我们生活改变了什么？](https://github.com/cokucoku/weekly/blob/main/008.md)
 
 ##  2025
 
