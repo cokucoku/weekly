@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>科技周刊查看是否引用了</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-size: 14px;
+        }
+
+        [v-cloak] {
+            display: none;
+        }
+
+        .myapp {
+            width: 840px;
+            margin: 20px auto;
+            border: solid 1px #d3d3d3;
+        }
+
+        .myapp .toolbar {
+            padding: 5px;
+            background: #fafafa;
+            color: #222222;
+            font-weight: bold;
+            height: 38px;
+            display: flex;
+            justify-content: space-between;
+            line-height: 26px;
+            position: sticky;
+            top: 0;
+            z-index: 444;
+        }
+
+        .myapp .toolbarb {
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
+            font-size: 12px;
+        }
+
+        .myapp .toolbarb .gl {
+            display: flex;
+            cursor: pointer;
+            gap: 6px
+        }
+
+        .myapp .toolbarb .page {
+            display: flex;
+        }
+
+        .myapp .toolbarb .page span {
+            margin-right: .1em;
+            font-weight: normal;
+            border: 1px solid #d3d3d3;
+            background: #e6e6e6;
+            color: #555555;
+            cursor: pointer;
+            padding: 0px 6px;
+        }
+
+        .myapp .toolbarb .page span.disabled {
+            opacity: .35;
+            pointer-events: none;
+        }
+
+        table {
+            color: #666;
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            line-height: 1.4em;
+        }
+
+        a {
+            color: #666;
+        }
+
+        table th {
+            text-align: left;
+        }
+
+        table .select {
+            width: 30px;
+        }
+
+        table .xz {
+            cursor: pointer;
+            font-size: 16px;
+            width: 16px;
+            height: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        table .ph {
+            width: 60px;
+            text-align: center;
+        }
+
+        table .url {
+            width: 70px;
+            text-align: center;
+        }
+
+
+        table td, table th {
+            padding: 0 7px;
+        }
+
+        table tr.have {
+            color: #f60;
+        }
+
+        table td {
+
+        }
+
+        table td i {
+            background: #f60;
+            font-style: normal;
+            font-size: 10px;
+            color: #fff;
+            padding: 0 2px;
+            margin-left: 5px;
+        }
+
+        table th {
+            position: relative;
+            vertical-align: top;
+        }
+
+        table thead {
+            background: #e6e6e6;
+        }
+
+        table tbody tr:nth-child(odd) {
+            background: #eee;
+        }
+
+        table tbody tr:nth-child(odd) .sort {
+            background-color: #D2D2D2;
+        }
+
+        table tbody tr:nth-child(even) {
+            background: #fff;
+        }
+
+        table tbody tr:nth-child(even) .sort {
+            background-color: #E2E2E2;
+        }
+    </style>
+</head>
+
+<body>
+<div class="myapp">
+    <div class="toolbar toolbarb">
+        <div class="page">
+            <span class="num" v-for="item in totalPage" @click="curPage=item"
+                  :class="{disabled:curPage==item}">{{item}}</span>
+        </div>
+        <div class="gl" v-cloak v-if="!edit" @click="edit=!edit">编辑</div>
+        <div class="gl" v-else>
+            <div class="ex" @click="edit=!edit">退出编辑</div>
+        </div>
+    </div>
+    <table style="position: sticky;top: 38px">
+        <thead>
+        <tr>
+            <th class="select" v-cloak v-if="edit"></th>
+            <th class="ph">序号</th>
+            <th class="mc">内容</th>
+            <th class="url">出自</th>
+        </tr>
+        </thead>
+    </table>
+    <table>
+        <tbody>
+        <tr v-for="item in lastData" :class="{have:item.have}">
+            <td @click="have(item.id)" class="select" v-cloak v-if="edit">
+                <div class="xz" v-cloak v-if="!item.have">☐</div>
+                <div class="xz" v-else>☑︎</div>
+            </td>
+            <td class="ph sort">{{item.id}}</td>
+            <td class="mc">
+                <div style="display: flex;align-items: center;"><div v-html="item.nr"></div><i v-cloak v-if="item.have">引用</i></div>
+            </td>
+            <td class="url">{{item.who}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script src="vue.min.js"></script>
+<script src="axios.min.js"></script>
+<script src="qs.min.js"></script>
+<script>
+    new Vue({
+        el: '.myapp',
+        data: {
+            curPage: 1,
+            list: [],
+            pageSize: 1000,
+            edit: false
+        },
+        mounted() {
+            //this.list = data
+            let data = {
+                app_key: '1D5AF16FD7D90EE3C5CF70D088249505',
+                model_name: 'motto',
+                perpage: 1000,
+                order: ["id DESC"]
+            }
+            axios({
+                method: "post",
+                url: 'https://hn216.api.yesapi.cn/api/App/Table/FreeQuery?yesapi_allow_origin=1',
+                data: Qs.stringify(data)
+            }).then((rs) => {
+                this.list = rs.data.data.list
+
+            })
+
+        },
+        methods: {
+            have(id) {
+                let value
+                let fi = this.lastData.filter((el) => {
+                    return el.id == id
+                })
+                if (fi[0]) {
+                    if (fi[0].have == 0) {
+                        this.$set(fi[0], 'have', 1)
+                        value=1
+
+                    } else {
+                        this.$set(fi[0], 'have', 0)
+                        value=0
+                    }
+
+                }
+                //数据库操作
+                let data = {
+                    app_key: '1D5AF16FD7D90EE3C5CF70D088249505',
+                    model_name: 'motto',
+                    id: id,
+                    data: {"have":value}
+                }
+                axios({
+                    method: "post",
+                    url: 'https://hn216.api.yesapi.cn/api/App/Table/Update?yesapi_allow_origin=1',
+                    data: Qs.stringify(data)
+                }).then((rs) => {
+
+
+                })
+            }
+        },
+        computed: {
+            lastData() {
+                let lastData = this.list.filter((el, index) => {
+                    return index >= (this.curPage - 1) * this.pageSize && index < this.curPage * this.pageSize
+                });
+
+                return lastData
+            },
+            totalPage() {
+                return Math.ceil(this.list.length / this.pageSize)
+            },
+        },
+    })
+</script>
+</body>
+
+</html>

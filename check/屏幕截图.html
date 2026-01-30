@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>屏幕截图</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-size: 14px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<div class="myapp">
+</div>
+<script src="vue.min.js"></script>
+<script src="axios.min.js"></script>
+<script src="qs.min.js"></script>
+<script>
+    new Vue({
+        el: '.myapp',
+        data: {
+        },
+        mounted() {
+            let data = {
+                url: 'https://v1.leeao8.cn',
+                format: 'webp',
+                width: 1000,
+                height: 600
+            }
+            axios({
+                method: "get",
+                url: 'https://screenshotsnap.com/api/screenshot',
+                params: data
+            }).then((rs) => {
+
+
+            })
+
+        },
+        methods: {
+        },
+        computed: {
+        },
+    })
+</script>
+</body>
+
+</html>
