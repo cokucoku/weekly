@@ -7,6 +7,7 @@
 ##  2026
 
 **一月**
+- 第 012 期：[我们未來的社会会变成"赛博朋克"吗？](https://github.com/cokucoku/weekly/blob/main/012.md)
 - 第 011 期：[失业难以避免，重构人生规划](https://github.com/cokucoku/weekly/blob/main/011.md)
 - 第 010 期：[农村剩男与城市剩女](https://github.com/cokucoku/weekly/blob/main/010.md)
 - 第 009 期：[华裔科技工作者正在放弃美国梦，返回中国](https://github.com/cokucoku/weekly/blob/main/009.md)
