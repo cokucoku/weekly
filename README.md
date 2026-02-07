@@ -6,7 +6,7 @@
 
 ##  2026
 
-**一月**
+**二月**
 - 第 013 期：[人工智能将传统中医带入未来](https://github.com/cokucoku/weekly/blob/main/013.md)
 
 **一月**
