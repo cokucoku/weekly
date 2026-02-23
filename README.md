@@ -7,9 +7,12 @@
 ##  2026
 
 **二月**
+
+- 第 014 期：[智利车厘子成年货标配](https://github.com/cokucoku/weekly/blob/main/014.md)
 - 第 013 期：[人工智能将传统中医带入未来](https://github.com/cokucoku/weekly/blob/main/013.md)
 
 **一月**
+
 - 第 012 期：[我们未來的社会会变成"赛博朋克"吗？](https://github.com/cokucoku/weekly/blob/main/012.md)
 - 第 011 期：[失业难以避免，重构人生规划](https://github.com/cokucoku/weekly/blob/main/011.md)
 - 第 010 期：[农村剩男与城市剩女](https://github.com/cokucoku/weekly/blob/main/010.md)
